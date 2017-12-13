@@ -112,7 +112,7 @@ then
   pullAndCommit
 fi
 
-mvn package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
+mvn clean package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
 
 #=== only push if the maven package does not to return some error
 if [ $? -eq 0 ]
