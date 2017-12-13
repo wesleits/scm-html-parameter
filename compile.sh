@@ -116,7 +116,7 @@ mvn package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
 #=== only push if the maven package does not to return some error
 if [ $? -eq 0 ]
 then
-  cp ./target/scm-html-parameter ./
+  cp ./target/scm-html-parameter.hpi ./
 
   pullAndCommit
 fi
