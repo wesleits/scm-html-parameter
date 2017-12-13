@@ -78,6 +78,7 @@ then
   echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
   sudo apt-get update
   sudo apt-get install -y oracle-java8-installer
+  sudo apt-get install -y oracle-java8-set-default
 
   #=== Install Maven
   sudo apt-get -y install maven

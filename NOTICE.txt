@@ -1,1 +1,0 @@
-The original design was inspired in Dynamic Parameters Plug-in (Apache License).
