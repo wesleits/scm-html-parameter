@@ -11,8 +11,8 @@
     </parent>
 
     <groupId>org.biouno</groupId>
-    <artifactId>uno-choice</artifactId>
-    <version>2.1-SNAPSHOT</version>
+    <artifactId>scm-html-parameter</artifactId>
+    <version>2.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <name>Active Choices Plug-in</name>
@@ -46,18 +46,6 @@
         <url>http://github.com/jenkinsci/active-choices-plugin</url>
         <tag>HEAD</tag>
     </scm>
-
-    <developers>
-        <developer>
-            <id>kinow</id>
-            <name>Bruno P. Kinoshita</name>
-            <timezone>Pacific/Auckland</timezone>
-        </developer>
-        <developer>
-            <id>imoutsatsos</id>
-            <name>Ioannis K. Moutsatsos</name>
-        </developer>
-    </developers>
 
     <dependencies>
         <!-- Scriptler is used to eval Groovy parameters -->
