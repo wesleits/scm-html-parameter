@@ -15,10 +15,10 @@
     <version>2.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
-    <name>Active Choices Plug-in</name>
+    <name>SCM HTML Parameter Plug-in</name>
     <description>This plug-in provides additional parameter types for jobs, that allow you to cascade changes and render images or other HTML elements instead of the traditional parameter.</description>
 
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/Active+Choices+Plugin</url>
+    <url>https://github.com/wesleits/scm-html-parameter</url>
 
     <licenses>
         <license>
@@ -41,9 +41,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/active-choices-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/active-choices-plugin.git</developerConnection>
-        <url>http://github.com/jenkinsci/active-choices-plugin</url>
+        <connection>scm:git:git://github.com/wesleits/scm-html-parameter.git</connection>
+        <developerConnection>scm:git:git@github.com/wesleits/scm-html-parameter.git</developerConnection>
+        <url>https://github.com/wesleits/scm-html-parameter</url>
         <tag>HEAD</tag>
     </scm>
 
