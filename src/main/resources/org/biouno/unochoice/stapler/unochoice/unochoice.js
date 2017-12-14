@@ -512,7 +512,6 @@ var UnoChoice = UnoChoice || (function($) {
                 }
             });
         } 
-        /*
         else if (parameterElement.id.indexOf('inputElement_') > -1) { // handle input text boxes
             this.proxy.getChoicesAsStringForUI(function (t) {
                 var options = t.responseText;
@@ -525,7 +524,6 @@ var UnoChoice = UnoChoice || (function($) {
                 parameterElement.innerHTML = JSON.parse(options);
             });
         }
-        */
         // propagate change
         // console.log('Propagating change event from ' + this.getParameterName());
         // var e = jQuery.Event('change', {parameterName: this.getParameterName()});
