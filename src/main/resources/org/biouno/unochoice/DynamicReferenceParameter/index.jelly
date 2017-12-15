@@ -35,21 +35,6 @@
       </j:choose>
     </div>
   </f:entry>
-    <style type="text/css">
-  .js-loading-overlay {
-
-  position:absolute;
-  top:0; bottom:0;
-  left:0; right:0;
-
-  z-index:199;
-
-  background:#fff;
-  opacity:0.5;
-
-  border-radius: inherit;
-  }
-  </style>
   <script type="text/javascript">
     // source, references table
     var referencedParameters = Array();
