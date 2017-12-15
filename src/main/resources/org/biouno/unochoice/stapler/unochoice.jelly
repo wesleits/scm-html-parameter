@@ -18,4 +18,5 @@ Use it like <st:adjunct includes="org.biouno.unochoice.stapler.unochoice"/>
   border-radius: inherit;
   }
   </style>
+  <script src="${it.packageUrl}/unochoice.js" type="text/javascript" />
 </j:jelly>
