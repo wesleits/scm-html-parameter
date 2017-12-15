@@ -113,12 +113,13 @@ then
 fi
 
 sudo rm -rf ./target
+mvn clean
 mvn package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
 
 #=== only push if the maven package does not to return some error
 if [ $? -eq 0 ]
 then
-  cp ./target/scm-html-parameter.hpi ./
+  cp -rf ./target/scm-html-parameter.hpi ./
 
   pullAndCommit
 fi
