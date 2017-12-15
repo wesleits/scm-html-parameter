@@ -113,7 +113,7 @@ then
 fi
 
 sed -i "s|<version>.*-SNAPSHOT</version>|<version>`date +%s`-SNAPSHOT</version>|g" pom.xml
-rm -rf ./target/scm-html-parameter.hpi
+rm -rf ./scm-html-parameter.hpi
 rm -rf ./target
 mvn package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
 
