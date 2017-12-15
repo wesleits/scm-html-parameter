@@ -4,7 +4,6 @@
   xmlns:i="jelly:fmt" xmlns:p="/lib/hudson/project">
   ${it.parameters.clear()}
   <st:adjunct includes="org.kohsuke.stapler.jquery"/>
-  <st:adjunct includes="org.biouno.unochoice.stapler.unochoice"/>
   <j:set var="choiceType" value="${it.choiceType}"/>
   <j:set var="omitValueField" value="${it.omitValueField}"/>
   <j:set var="cssclazz" value="" />
