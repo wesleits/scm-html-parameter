@@ -12,7 +12,7 @@
 
     <groupId>org.biouno</groupId>
     <artifactId>scm-html-parameter</artifactId>
-    <version>1513366733-SNAPSHOT</version>
+    <version>1513367009-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <name>SCM HTML Parameter Plug-in</name>
