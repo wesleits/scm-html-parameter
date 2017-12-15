@@ -5,4 +5,7 @@
   <f:block><strong>Script</strong></f:block>
   <f:entry/><!-- just for help.html -->
   <f:property field="script"/>
+  <f:block><strong>Fallback Script</strong></f:block>
+  <f:entry/><!-- just for help.html -->
+  <f:property field="fallbackScript"/>
 </j:jelly>
