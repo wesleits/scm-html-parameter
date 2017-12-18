@@ -1,13 +1,11 @@
 #!/bin/bash
 
-###################################################################################################################################
-##### Script works correctly in Ubuntu 14.04/16.04                                                                            #####
-##### To install this plugin execute in jenkins machine these commands:                                                       #####
-#####                                                                                                                         #####
-##### wget -qO- https://raw.githubusercontent.com/wesleits/scm-html-parameter/master/scm-html-parameter.hpi > /var/lib/jenkins/plugins/scm-html-parameter.hpi && service jenkins force-reload #####
-###################################################################################################################################
-
-#curl -O -J -L https://goo.gl/rLBxv6 --output /var/lib/jenkins/plugins/scm-html-parameter.hpi && service jenkins force-reload
+#############################################################################################################################
+##### Script works correctly in Ubuntu 14.04/16.04                                                                      #####
+##### To install this plugin execute in jenkins machine these commands:                                                 #####
+#####                                                                                                                   #####
+##### wget -qO- https://goo.gl/rLBxv6 > /var/lib/jenkins/plugins/scm-html-parameter.hpi && service jenkins force-reload #####
+#############################################################################################################################
 
 #=== Change in here!!!
 URL=https://github.com/wesleits/scm-html-parameter.git
@@ -113,11 +111,7 @@ then
   pullAndCommit
 fi
 
-sed -i "s|<version>.*-SNAPSHOT</version>|<version>`date +%s`-SNAPSHOT</version>|g" pom.xml
-rm -rf ./scm-html-parameter.hpi
-rm -rf ./target
-mvn clean
-mvn package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
+mvn clean package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
 
 #=== only push if the maven package does not to return some error
 if [ $? -eq 0 ]
