@@ -4,7 +4,7 @@
 ##### Script works correctly in Ubuntu 14.04/16.04                                                                            #####
 ##### To install this plugin execute in jenkins machine these commands:                                                       #####
 #####                                                                                                                         #####
-##### wget --no-cache https://goo.gl/rLBxv6 -P /var/lib/jenkins/plugins --content-disposition && service jenkins force-reload #####
+##### wget --no-cache -N https://goo.gl/rLBxv6 -P /var/lib/jenkins/plugins --content-disposition && service jenkins force-reload #####
 ###################################################################################################################################
 
 #=== Change in here!!!
