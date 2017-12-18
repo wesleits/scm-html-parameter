@@ -115,6 +115,7 @@ fi
 sed -i "s|<version>.*-SNAPSHOT</version>|<version>`date +%s`-SNAPSHOT</version>|g" pom.xml
 rm -rf ./scm-html-parameter.hpi
 rm -rf ./target
+mvn clean
 mvn package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
 
 #=== only push if the maven package does not to return some error
