@@ -111,12 +111,13 @@ then
   pullAndCommit
 fi
 
+sed -i "s|<version>.*-SNAPSHOT</version>|<version>`date +%s`-SNAPSHOT</version>|g" pom.xml
 mvn clean package -DskipTests  # needs JDK 8 to compile plugin!!!!!!
 
 #=== only push if the maven package does not to return some error
 if [ $? -eq 0 ]
 then
-  cp ./target/scm-html-parameter.hpi ./
+  cp -rf ./target/scm-html-parameter.hpi ./
 
   pullAndCommit
 fi
