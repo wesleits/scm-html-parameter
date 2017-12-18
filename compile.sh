@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#############################################################################################################################
-##### Script works correctly in Ubuntu 14.04/16.04                                                                      #####
-##### To install this plugin execute in jenkins machine these commands:                                                 #####
-#####                                                                                                                   #####
-##### wget -qO- https://goo.gl/rLBxv6 > /var/lib/jenkins/plugins/scm-html-parameter.hpi && service jenkins force-reload #####
-#############################################################################################################################
+########################################################################################################################
+##### Script works correctly in Ubuntu 14.04/16.04                                                                 #####
+##### To install this plugin execute in jenkins machine these commands:                                            #####
+#####                                                                                                              #####
+##### wget -qO- https://goo.gl/rLBxv6 > /var/lib/jenkins/plugins/scm-html-parameter.hpi && service jenkins restart #####
+########################################################################################################################
 
 #=== Change in here!!!
 URL=https://github.com/wesleits/scm-html-parameter.git
