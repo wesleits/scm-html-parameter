@@ -4,7 +4,7 @@
 ##### Script works correctly in Ubuntu 14.04/16.04                                                                 #####
 ##### To install this plugin execute in jenkins machine these commands:                                            #####
 #####                                                                                                              #####
-##### wget -qO- https://goo.gl/rLBxv6 > /var/lib/jenkins/plugins/scm-html-parameter.hpi && service jenkins restart #####
+##### wget --no-cache --content-disposition -qO- https://goo.gl/rLBxv6 > /var/lib/jenkins/plugins/scm-html-parameter.hpi && service jenkins restart #####
 ########################################################################################################################
 
 #=== Change in here!!!
